@@ -1,0 +1,5 @@
+ro.display.series=Huawei Y5p
+ro.boot.dynamic_partitions=true
+sys.usb.controller=musb-hdrc
+#fbe.metadata.wrappedkey=true
+ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11270000.ufshci,11270000.ufshci

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/huawei/dura
+DEVICE_PATH := device/huawei/merida
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -33,7 +33,7 @@ ENABLE_SCHEDBOOST := true
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := k65v1_64_bsp_titan_rat
+TARGET_BOOTLOADER_BOARD_NAME := k62v1_64_mex_a32
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -116,13 +116,13 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-TW_DEVICE_VERSION := Smiley_9000
+TW_DEVICE_VERSION := Maks13XE_v1.0
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-TW_MTP_DEVICE := "Huawei Y5p"
+TW_MTP_DEVICE := "Huawei Y6p"
 TW_INCLUDE_NTFS_3G := true
 TW_USE_NEW_MINADBD := true

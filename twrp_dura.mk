@@ -9,10 +9,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from a03s device
-$(call inherit-product, device/huawei/dura/device.mk)
+$(call inherit-product, device/huawei/merida/device.mk)
 
-PRODUCT_DEVICE := dura
-PRODUCT_NAME := twrp_dura
+PRODUCT_DEVICE := merida
+PRODUCT_NAME := twrp_merida
 PRODUCT_BRAND := huawei
-PRODUCT_MODEL := dra-lx9
+PRODUCT_MODEL := med-lx9
 PRODUCT_MANUFACTURER := huawei
